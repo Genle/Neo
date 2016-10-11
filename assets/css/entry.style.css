@@ -1,0 +1,83 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(http://localhost/LendDatabase/assets/img/bg3.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.btn-enter{
+	/*top:50px;*/
+	border: 1px solid white;
+	padding-top: 15px;
+	padding-bottom:  15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	/*background-color: rgb(255, 153, 0);*/
+	/*margin-left: 50%;*/
+	color: white;
+
+}
+
+.div-btn{
+	margin: auto;
+	width: 100px;
+}
+
+.btn-enter:hover{
+	text-decoration: none;
+	color: rgb(255, 153, 0);
+
+}
+
+h1.title{
+	color: white;
+	text-align: center;
+}
+
+.welcome-text{
+	margin-top: 15%;
+	text-align: center;
+	font-size: 35px;
+	position: relative;
+	color: white;
+
+}
+
+p.invitation{
+	margin-top: 6%;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	/*margin-bottom: 20px;*/
+}
+
+.logo-pic{
+	margin:4% auto;
+	width: 350px;
+	height: 100px;
+}
+
+.logo{
+	margin-top: 3%;
+	width: 350px;
+	height: 100px;
+
+}
+.language{
+	float: right;
+	margin-top: 10px;
+	margin-right: 70px;
+}
+
+.copyright{
+	width: 20%;
+	/*border: 1px solid white;*/
+	margin:6% auto 0 auto;
+	color: white;
+	text-align: center;
+	font-size: 10px;
+}
