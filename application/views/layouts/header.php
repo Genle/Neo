@@ -17,19 +17,36 @@
 		
 	</title>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.2.0/ui-bootstrap-tpls.min.js"></script>
+  <script type="text/javascript" src=<?php echo js_url('app');?> ></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.1/css/bulma.min.css">
 	<link href=<?php echo css_url('carousel'); ?> rel="stylesheet">
 	<link rel="stylesheet" href=<?php echo css_url('style'); ?>>
 </head>
-<body>
+<body >
+     
+   
+    <nav class="nav has-shadow navbar-static-top">
+      <div class="container">
+        <div class="nav-left">
+            <a class="nav-item is-brand" href="#">
+                 <img class="" src=<?php echo base_url()."/assets/img/logo.png"?> alt="">
+            </a>
+            <a class="nav-item is-tab is-active">Home</a>
+            <a class="nav-item is-tab">List</a>
+            <a class="nav-item is-tab">About</a>
+            <a class="nav-item is-tab">Contacts</a>
+        </div>
+      </div>
+</nav>
+
+<!--
 	<div class="navbar-wrapper">
       <div class="container">
 
         <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
+          <div class="container"> 
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -52,6 +69,7 @@
 
       </div>
     </div>
+-->
 
 
     <!-- Carousel

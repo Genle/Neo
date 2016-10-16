@@ -1,21 +1,23 @@
-var angularApp = angular.module('app', ['ui.bootstrap']);
+$(document).ready(function(){
+	$("#btn-p").click(function() {
+		/* Act on the event */
+		
+		$("div.modal").addClass('is-active');
 
-angularApp.controller('publishController', function($scope, $modal){
-	var $ctrl = this;
-	$ctrl.animationsEnabled = true;
+	});
 
-	$ctrl.open = function(){
-		$modal.open({
-			animation: $ctrl.animationsEnabled,
-		    ariaLabelledBy: 'modal-title',
-		    ariaDescribedBy: 'modal-body',
-			templateUrl: 'publishView.html',
-			controller: 'pubController',
-			controllerAs: '$ctrl'
-		});
+	$("a.cancel").click(function() {
+		/* Act on the event */
+		$("div.modal").removeClass('is-active');
+	});
+    
+    $("button.delete").click(function(){
+        $("div.modal").removeClass('is-active');
+    });
+    
+    $(".post-btn-1").click(function(){
+       $(".post-1").css("display", "block"); 
+    });
 }
 	
-})
-.controller('pubController', function pubController($scope) {
-	
-}])
+);

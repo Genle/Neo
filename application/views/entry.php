@@ -30,7 +30,7 @@
 		<!-- <h1 class="title">Neo Ayiti</h1> -->
 		<div class="logo-pic">
 			
-			<img class="logo" src="http://localhost/LendDatabase/assets/img/logo.png">
+			<img class="logo" src="http://localhost/Neo/assets/img/logo.png">
 		</div>
 		<h2 class="welcome-text">
 			Byenvini sou neo
